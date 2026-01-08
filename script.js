@@ -11,7 +11,8 @@ const parolaUser = prompt("Scrivi una parola").trim();
 // ora devo verificare se la parola dell'utente è palidroma
 
 function isPalidroma (parola) {
-    
+    const parolaAlContrario = split().reverse().join(); //! ho preso da Tiziano
+
 }
 
 
