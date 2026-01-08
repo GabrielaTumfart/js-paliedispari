@@ -6,7 +6,14 @@ Creare una funzione per capire se la parola inserita è palindroma
 */
 
 // chiedo una parola all'utente
-const parolaUser = prompt("Scrivi una parola");
+const parolaUser = prompt("Scrivi una parola").trim();
+
+// ora devo verificare se la parola dell'utente è palidroma
+
+function isPalidroma (parola) {
+    
+}
+
 
 
 
