@@ -11,6 +11,8 @@ const parolaUser = prompt("Scrivi una parola").trim();
 // ora devo verificare se la parola dell'utente è palidroma
 
 const verifica = isPalidroma(parolaUser);
+console.log(verifica)
+
 
 if (verifica) {
     console.log("La parola è Palidroma.")
@@ -20,9 +22,23 @@ if (verifica) {
 }
 
 function isPalidroma (parola) {
-    const parolaAlContrario = parola.split().reverse().join(); //! ho preso da Tiziano
-    return parola;
+    console.log(parola)
+    // ciao
+    console.log(parola.split(""));
+    const parolaAlContrario = parola.split("") // [ 'c', 'i', 'a', 'o']
+        .reverse() // [ 'o', 'a', 'i', 'c']
+        .join(""); //! ho preso da Tiziano // oaic
 
+    // ciao == oiac
+
+    console.log(parolaAlContrario);
+
+    let palindroma = false;
+    if (parola == parolaAlContrario){
+        palindroma = true;
+    }
+
+    return palindroma;
 }
 
 
