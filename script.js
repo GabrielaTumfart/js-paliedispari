@@ -71,3 +71,10 @@ function numeroRandom() {
     return numero;
     
 }
+
+// funzione che controlla se il numero è pari o dispari
+
+function numeroPariOppureDispari(numero) {
+    let risultato = dispari;
+    
+}
