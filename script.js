@@ -64,6 +64,10 @@ const sceltaUser = prompt("Scegli pari o dispari").trim().toLowerCase();
 
 const numeroUser = prompt("Scegli un numero da 1 a 5");  
 
+// adesso genero un numero a caso per il computer
+
+const numeroComputer = numeroRandom();
+
 // funzione per creare il numero da 1 a 5 - userò il Random che abbiamo visto oggi
 
 function numeroRandom() {
@@ -80,8 +84,8 @@ function numeroPariOppureDispari(numero) {
     if (numero % 2 == 0) {
         risultato = pari
         
-    } else {
+    } 
         
-    }
+    return risultato
     
 }
