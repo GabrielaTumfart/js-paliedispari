@@ -13,8 +13,9 @@ const parolaUser = prompt("Scrivi una parola").trim();
 const verifica = isPalidroma(parolaUser);
 
 if (isPalidroma) {
-    
+    console.log("La parola è Palidroma.")
 } else {
+    console.log("La parola non è Palidroma.")
     
 }
 
