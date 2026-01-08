@@ -79,6 +79,15 @@ console.log("Risultato della somma"), risultato;
 
 // controllo di chi ha vinto
 
+if (risultato == numeroUser) {
+    console.log("L'utente ha vinto!");
+    
+} else {
+    console.log("L'utente ha perso!");
+    
+    
+}
+
 
 // funzione per creare il numero da 1 a 5 - userò il Random che abbiamo visto oggi
 
