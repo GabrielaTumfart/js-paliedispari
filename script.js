@@ -61,3 +61,13 @@ Dichiariamo chi ha vinto.
 const sceltaUser = prompt("Scegli pari o dispari").trim().toLowerCase();
 
 // Chiedo all'utente di inserire un numero
+
+const numeroUser = prompt("Scegli un numero da 1 a 5");  
+
+// funzione per creare il numero da 1 a 5 - userò il Random che abbiamo visto oggi
+
+function numeroRandom() {
+    const numero = Math.floor(Math.random()* 5 + 1); //! ho preso da Tiziano
+    return numero;
+    
+}
