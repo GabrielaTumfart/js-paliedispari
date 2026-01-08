@@ -103,7 +103,7 @@ function numeroPariOppureDispari(numero) {
     let risultato = "dispari";
     
     if (numero % 2 == 0) {
-        risultato = pari
+        risultato = "pari";
         
     } 
         
