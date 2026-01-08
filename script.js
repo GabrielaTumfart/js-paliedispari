@@ -75,6 +75,13 @@ function numeroRandom() {
 // funzione che controlla se il numero è pari o dispari
 
 function numeroPariOppureDispari(numero) {
-    let risultato = dispari;
+    let risultato = "dispari";
+    
+    if (numero % 2 == 0) {
+        risultato = pari
+        
+    } else {
+        
+    }
     
 }
