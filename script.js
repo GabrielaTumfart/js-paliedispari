@@ -68,6 +68,10 @@ const numeroUser = prompt("Scegli un numero da 1 a 5");
 
 const numeroComputer = numeroRandom();
 
+// soma del numero utente + numero computer
+
+const somma = numeroUser + numeroComputer;
+
 // funzione per creare il numero da 1 a 5 - userò il Random che abbiamo visto oggi
 
 function numeroRandom() {
