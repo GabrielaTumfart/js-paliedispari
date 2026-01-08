@@ -10,6 +10,8 @@ const parolaUser = prompt("Scrivi una parola").trim();
 
 // ora devo verificare se la parola dell'utente è palidroma
 
+const verifica = isPalidroma(parolaUser);
+
 if (isPalidroma) {
     
 } else {
