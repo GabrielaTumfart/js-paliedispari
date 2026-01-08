@@ -56,6 +56,8 @@ Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
 */
 
-// Chiedo all'utente di schegliere pari o dispari
+// Chiedo all'utente di scegliere pari o dispari
+
+const sceltaUser = prompt("Scegli pari o dispari").trim().toLowerCase();
 
 // Chiedo all'utente di inserire un numero
