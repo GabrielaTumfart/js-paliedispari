@@ -75,6 +75,8 @@ const somma = numeroUser + numeroComputer;
 // verifica se la soma è un numero pari oppure un numero dispari
 
 const risultato = numeroPariOppureDispari(soma);
+console.log("Risultato della soma"), risultato;
+
 
 // funzione per creare il numero da 1 a 5 - userò il Random che abbiamo visto oggi
 
