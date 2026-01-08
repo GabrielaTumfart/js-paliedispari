@@ -85,7 +85,6 @@ if (risultato == numeroUser) {
 } else {
     console.log("L'utente ha perso!");
     
-    
 }
 
 
