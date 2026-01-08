@@ -5,7 +5,8 @@ Chiedere all’utente di inserire una parola //! se si legge uguale dalla sinist
 Creare una funzione per capire se la parola inserita è palindroma
 */
 
-
+// chiedo una parola all'utente
+const parolaUser = prompt("Scrivi una parola");
 
 
 
